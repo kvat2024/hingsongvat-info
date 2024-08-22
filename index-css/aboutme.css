@@ -56,13 +56,13 @@
 }
 @media only screen and (max-width: 900px) {
   .about-me {
-    padding: 0 30px;
+    padding: 0 40px;
     flex-direction: column;
     flex-direction: column-reverse;
     gap: 40px;
     margin-bottom: 50px;
   }
   .hero-2 img {
-    width: 500px;
+    width: 450px;
   }
 }

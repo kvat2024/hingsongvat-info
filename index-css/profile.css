@@ -49,9 +49,11 @@
 @media only screen and (max-width: 900px) {
   #profile {
     flex-direction: column;
+    padding: 0 40px;
   }
   .hero img {
     text-align: center;
+    width: 450px;
   }
   .profile {
     padding: 0 20px;
