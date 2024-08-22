@@ -1,0 +1,59 @@
+#profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin: 20px;
+  margin-top: 100px;
+  color: whitesmoke;
+}
+#profile .btn {
+  padding: 11px 40px;
+  background-color: #3a86ff;
+  border-radius: 10px 25px 10px 25px;
+  font-size: 17px;
+  border: 1px solid #3a86ff;
+  margin-top: 15px;
+}
+#profile .btn:hover {
+  background-color: #fefefe;
+}
+.title-me h2 span {
+  color: #3a86ff;
+}
+.title-me h1 span {
+  color: #3a86ff;
+}
+.title-me h3 span {
+  color: #3a86ff;
+}
+.title-me h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.title-me p {
+  font-size: 18px;
+}
+.title-me h2 {
+  font-size: 25px;
+}
+
+.hero img {
+  height: auto;
+  width: 500px;
+  border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
+  border: 3px solid gold;
+  box-shadow: 7px 20px gold;
+}
+
+@media only screen and (max-width: 900px) {
+  #profile {
+    flex-direction: column;
+  }
+  .hero img {
+    text-align: center;
+  }
+  .profile {
+    padding: 0 20px;
+  }
+}

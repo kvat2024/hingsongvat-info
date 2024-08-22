@@ -1,0 +1,68 @@
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  padding: 100px;
+  color: whitesmoke;
+}
+.hero-2 img {
+  border-radius: 50px;
+  width: 500px;
+}
+.content {
+  font-size: 20px;
+  text-align: justify;
+}
+.content h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.content h1 span {
+  color: #3a86ff;
+}
+.content p {
+  margin-bottom: 10px;
+}
+.content button {
+  font-size: 20px;
+  padding: 5px 30px;
+  border-radius: 5px;
+  border: 2px solid #3a86ff;
+  margin-top: 10px;
+}
+.content button:hover {
+  background-color: #3a86ff;
+}
+@media only screen and (max-width: 1320px) {
+  .about-me {
+    padding: 0 50px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .about-me {
+    margin-top: 60px;
+    padding: 0 20px;
+    gap: 30px;
+  }
+  .hero-2 img {
+    border-radius: 20px;
+    width: 430px;
+    height: auto;
+  }
+  .content {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .about-me {
+    padding: 0 30px;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+  .hero-2 img {
+    width: 500px;
+  }
+}
