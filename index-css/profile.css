@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 200px;
   margin: 20px;
   margin-top: 100px;
   color: whitesmoke;
@@ -45,17 +45,42 @@
   border: 3px solid gold;
   box-shadow: 7px 20px gold;
 }
-
+@media only screen and (max-width: 1200px) {
+  #profile {
+    gap: 40px;
+    padding: 0 50px;
+  }
+}
 @media only screen and (max-width: 900px) {
   #profile {
+    gap: 20px;
+    padding: 0 30px;
+  }
+  .hero img {
+    text-align: center;
+    width: 330px;
+    height: 330px;
+  }
+  .title-me {
+    max-width: 100%;
+  }
+  .title-me p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #profile {
     flex-direction: column;
-    padding: 0 40px;
+    padding: 0;
+    gap: 50px;
   }
   .hero img {
     text-align: center;
     width: 450px;
+    max-width: 100%;
   }
   .profile {
-    padding: 0 22px;
+    padding: 0;
   }
 }

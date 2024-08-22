@@ -42,12 +42,12 @@
 @media only screen and (max-width: 1200px) {
   .about-me {
     margin-top: 60px;
-    padding: 0 20px;
+    padding: 0 40px;
     gap: 30px;
   }
   .hero-2 img {
     border-radius: 20px;
-    width: 430px;
+    width: 400px;
     height: auto;
   }
   .content {
@@ -56,13 +56,24 @@
 }
 @media only screen and (max-width: 900px) {
   .about-me {
-    padding: 0 40px;
-    flex-direction: column;
-    flex-direction: column-reverse;
-    gap: 40px;
+    padding: 0 20px;
     margin-bottom: 50px;
+    gap: 15px;
   }
   .hero-2 img {
-    width: 450px;
+    width: 360px;
+    height: 390px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .about-me {
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .hero-2 img {
+    max-width: 100%;
+    width: 600px;
   }
 }
