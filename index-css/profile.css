@@ -72,7 +72,7 @@
 @media only screen and (max-width: 700px) {
   #profile {
     flex-direction: column;
-    padding: 0;
+    padding: 0 20px;
     gap: 50px;
   }
   .hero img {
