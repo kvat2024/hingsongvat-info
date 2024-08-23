@@ -1,22 +1,23 @@
 #profile {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 200px;
   margin: 20px;
   margin-top: 100px;
   color: whitesmoke;
+  padding: 0 200px;
 }
 #profile .btn {
   padding: 11px 40px;
-  background-color: #3a86ff;
+  background-color: rgb(31, 30, 30, 0.24);
   border-radius: 10px 25px 10px 25px;
   font-size: 17px;
   border: 1px solid #3a86ff;
-  margin-top: 15px;
+  margin-top: 25px;
+  color: #fefefe;
 }
 #profile .btn:hover {
-  background-color: #fefefe;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #3a86ff);
 }
 .title-me h2 span {
   color: #3a86ff;
@@ -37,23 +38,17 @@
 .title-me h2 {
   font-size: 25px;
 }
-
 .hero img {
+  width: 450px;
   height: auto;
-  width: 500px;
-  border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
-  border: 3px solid gold;
-  box-shadow: 7px 20px gold;
 }
 @media only screen and (max-width: 1200px) {
   #profile {
-    gap: 40px;
     padding: 0 50px;
   }
 }
 @media only screen and (max-width: 900px) {
   #profile {
-    gap: 20px;
     padding: 0 30px;
   }
   .hero img {
@@ -71,9 +66,9 @@
 
 @media only screen and (max-width: 700px) {
   #profile {
+    gap: 50px;
     flex-direction: column;
     padding: 0 20px;
-    gap: 50px;
   }
   .hero img {
     text-align: center;

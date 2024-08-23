@@ -25,14 +25,16 @@
   margin-bottom: 10px;
 }
 .content button {
+  color: white;
   font-size: 20px;
   padding: 5px 30px;
   border-radius: 5px;
   border: 2px solid #3a86ff;
   margin-top: 10px;
+  background-color: rgb(31, 30, 30, 0.24);
 }
 .content button:hover {
-  background-color: #3a86ff;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #3a86ff);
 }
 @media only screen and (max-width: 1320px) {
   .about-me {
