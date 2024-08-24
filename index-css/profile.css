@@ -36,15 +36,41 @@
   font-size: 18px;
 }
 .title-me h2 {
+  position: relative;
   font-size: 25px;
+  overflow: hidden;
 }
+.title-me h2::before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  background-color: black;
+  animation: animate 5s steps(40) infinite;
+}
+@keyframes animate {
+  40%,60% {
+    left: 50%;
+  }
+  100%{
+    left: 0%;
+  }
+}
+
 .hero img {
   width: 450px;
   height: auto;
 }
+@media only screen and (max-width: 1320px) {
+  #profile {
+    padding: 0 40px;
+  }
+}
 @media only screen and (max-width: 1200px) {
   #profile {
-    padding: 0 50px;
+    padding: 0 30px;
   }
 }
 @media only screen and (max-width: 900px) {
@@ -63,7 +89,6 @@
     font-size: 15px;
   }
 }
-
 @media only screen and (max-width: 700px) {
   #profile {
     gap: 50px;
