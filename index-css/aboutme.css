@@ -24,18 +24,44 @@
 .content p {
   margin-bottom: 10px;
 }
-.content button {
+.tab-item {
   color: white;
-  font-size: 20px;
-  padding: 5px 30px;
-  border-radius: 5px;
-  border: 2px solid #3a86ff;
+  margin-top: 30px;
+}
+.tab-item div > h2 {
+  color: #3a86ff;
   margin-top: 10px;
-  background-color: rgb(31, 30, 30, 0.24);
+  font-size: 23px;
 }
-.content button:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), #3a86ff);
+.tab-item ul {
+  display: flex;
+  margin-bottom: 24px;
 }
+.tab-item ul li {
+  margin-right: 30px;
+  font-size: 25px;
+  position: relative;
+  list-style: none;
+}
+.tab-item ul li::after {
+  content: "";
+  background-color: #3a86ff;
+  width: 50%;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+}
+/* .tab-item ul li:hover::after {
+  content: "";
+  background-color: #3a86ff;
+  width: 50%;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: all 0.2s;
+} */
 @media only screen and (max-width: 1320px) {
   .about-me {
     padding: 0 50px;
@@ -51,7 +77,7 @@
   .hero-2 img {
     border-radius: 20px;
     width: 400px;
-    height: auto;
+    height: 500px;
   }
   .content {
     font-size: 17px;
@@ -59,18 +85,26 @@
 }
 @media only screen and (max-width: 900px) {
   .about-me {
-    padding: 0 20px;
-    margin-bottom: 50px;
-    gap: 15px;
+    padding: 0 45px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .content {
+    max-width: 100%;
   }
   .hero-2 img {
-    width: 360px;
+    max-width: 100%;
+    width: 500px;
     height: 390px;
+  }
+  .tab-item {
+    max-width: 100%;
   }
 }
 @media only screen and (max-width: 700px) {
   .about-me {
-    padding: 0 20px;
+    padding: 0 30px;
     display: flex;
     flex-direction: column-reverse;
     gap: 50px;
@@ -79,4 +113,16 @@
     max-width: 100%;
     width: 600px;
   }
+}
+@media only screen and (max-width: 400px) {
+  .tab-item ul li {
+    font-size: 20px;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .tab-item ul li {
+    margin-right: 5px;
+  
+}
 }
