@@ -13,15 +13,11 @@ header {
   padding: 0 100px;
   z-index: 99;
 }
-.logo {
+#logo {
   font-size: 25px;
-  font-weight: 500;
-  color: whitesmoke;
+  color: transparent;
+  -webkit-text-stroke: 1px #3a86ff;
   cursor: pointer;
-}
-.logo span {
-  color: #3a86ff;
-  font-weight: bold;
 }
 .hamburger {
   display: none;

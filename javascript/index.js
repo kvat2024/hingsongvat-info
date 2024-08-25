@@ -1,3 +1,4 @@
+// touch no zoom in responsive
 document.addEventListener(
   "touchstart",
   function (event) {
@@ -7,27 +8,31 @@ document.addEventListener(
   },
   { passive: false }
 );
+// end touch no zoom in responsive
+// logo style
+const text = "HING SONGVAT";
+let index = 0;
+const speed = 200; 
 
+function typeWriter() {
+  if (index < text.length) {
+    document.getElementById("logo").innerHTML += text.charAt(index);
+    index++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+typeWriter();
+// end style of logo
+
+// touch nav-bar
 hamburger = document.querySelector(".hamburger");
 hamburger.onclick = function () {
   navBar = document.querySelector(".nav-bar");
   navBar.classList.toggle("active");
 };
+// end touch nav-bar
 
-const favoriteColors = ["#0ef", "#ff0000"];
 
-function getRandomFavoriteColor() {
-  return favoriteColors[Math.floor(Math.random() * favoriteColors.length)];
-}
-
-function changeTextColor() {
-  let randomColor = getRandomFavoriteColor();
-  let spans = document.querySelectorAll(".title-me span");
-  spans.forEach((span) => {
-    span.style.color = randomColor;
-  });
-}
-
-setInterval(changeTextColor, 100);
 
 

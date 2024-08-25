@@ -119,6 +119,9 @@
     font-size: 20px;
     max-width: 100%;
   }
+  .hero-2 img {
+    height: 340px;
+  }
 }
 @media only screen and (max-width: 300px) {
   .tab-item ul li {
