@@ -29,3 +29,5 @@ function changeTextColor() {
 }
 
 setInterval(changeTextColor, 100);
+
+
