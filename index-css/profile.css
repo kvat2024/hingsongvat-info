@@ -41,25 +41,6 @@
   font-size: 25px;
   overflow: hidden;
 }
-.title-me h2::before {
-  content: " ";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 50%;
-  background-color: black;
-  animation: animate 5s steps(40) infinite;
-}
-@keyframes animate {
-  40%,60% {
-    left: 50%;
-  }
-  100%{
-    left: 0%;
-  }
-}
-
 .hero img {
   width: 450px;
   height: auto;

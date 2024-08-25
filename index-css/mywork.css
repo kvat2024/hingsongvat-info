@@ -1,15 +1,16 @@
-#my-work .work-item {
-  position: relative;
-  overflow: hidden;
-  border-radius: 30px;
-  color: white;
-}
 #my-work {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   padding: 0 100px;
 }
+#my-work .work-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+  color: white;
+}
+
 .work-item .contianer {
   position: absolute;
   width: 100%;
