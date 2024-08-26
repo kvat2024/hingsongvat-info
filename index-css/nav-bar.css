@@ -14,10 +14,14 @@ header {
   z-index: 99;
 }
 #logo {
+  font-size: 22px;
+  color: yellow;
+  text-shadow: 5px 5px 5px #3a86ff, -6px -6px 30px yellow;;
+}
+#logo span {
+  color: #3a86ff;
+  font-weight: bold;
   font-size: 25px;
-  color: transparent;
-  -webkit-text-stroke: 1px #3a86ff;
-  cursor: pointer;
 }
 .hamburger {
   display: none;
@@ -34,7 +38,7 @@ header {
   margin: 0 30px;
 }
 .nav-bar ul li a:hover {
-  color: #ff1b6b;
+  color: white;
 }
 .nav-bar ul li a::before {
   content: "";
@@ -66,7 +70,7 @@ header {
     cursor: pointer;
   }
   .hamburger div {
-    color: white;
+    color: rgb(225, 205, 89);
     font-size: 30px;
   }
   .nav-bar {

@@ -9,7 +9,7 @@
 .hero-2 img {
   border-radius: 50px;
   width: 500px;
-  box-shadow: 5px 5px 5px #ff1b6b, -6px -6px 12px #3a86ff;
+  box-shadow: 5px 5px 5px #3a86ff, -6px -6px 12px blue;
 }
 .content {
   font-size: 20px;
@@ -21,6 +21,9 @@
 }
 .content h1 span {
   color: #3a86ff;
+}
+.content h1 {
+  text-shadow: 5px 5px 5px #3a86ff, -6px -6px 12px blue;
 }
 .content p {
   margin-bottom: 10px;
@@ -127,6 +130,5 @@
 @media only screen and (max-width: 300px) {
   .tab-item ul li {
     margin-right: 5px;
-  
-}
+  }
 }

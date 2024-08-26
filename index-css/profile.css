@@ -15,6 +15,7 @@
   border: 1px solid #3a86ff;
   margin-top: 25px;
   color: #fefefe;
+  
 }
 #profile .btn:hover {
   background: linear-gradient(rgba(0, 0, 0, 0.6), #3a86ff);

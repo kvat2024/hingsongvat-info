@@ -10,19 +10,20 @@ document.addEventListener(
 );
 // end touch no zoom in responsive
 // logo style
-const text = "HING SONGVAT";
-let index = 0;
-const speed = 200; 
+document.addEventListener("DOMContentLoaded", () => {
+  const spans = document.querySelectorAll("#logo span");
+  let index = 0;
 
-function typeWriter() {
-  if (index < text.length) {
-    document.getElementById("logo").innerHTML += text.charAt(index);
-    index++;
-    setTimeout(typeWriter, speed);
+  function showNextSpan() {
+    if (index < spans.length) {
+      spans[index].classList.remove("hidden");
+      index++;
+      setTimeout(showNextSpan, 500); // Adjust the speed here
+    }
   }
-}
 
-typeWriter();
+  showNextSpan();
+});
 // end style of logo
 
 // touch nav-bar
@@ -32,7 +33,3 @@ hamburger.onclick = function () {
   navBar.classList.toggle("active");
 };
 // end touch nav-bar
-
-
-
-
