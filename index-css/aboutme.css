@@ -9,6 +9,7 @@
 .hero-2 img {
   border-radius: 50px;
   width: 500px;
+  box-shadow: 5px 5px 5px #ff1b6b, -6px -6px 12px #3a86ff;
 }
 .content {
   font-size: 20px;
