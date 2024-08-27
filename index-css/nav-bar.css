@@ -15,8 +15,8 @@ header {
 }
 #logo {
   font-size: 22px;
-  color: yellow;
-  text-shadow: 5px 5px 5px #3a86ff, -6px -6px 30px yellow;;
+  color: gold;
+  text-shadow: 5px 5px 5px #3a86ff, -6px -6px 30px gold;;
 }
 #logo span {
   color: #3a86ff;
@@ -47,7 +47,7 @@ header {
   bottom: -5px;
   width: 0%;
   height: 3px;
-  background-color: #3a86ff;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #3a86ff);
   transition: all 0.4s;
 }
 .nav-bar ul li a:hover::before {

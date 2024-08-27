@@ -7,7 +7,7 @@
   color: whitesmoke;
   padding: 0 200px;
 }
-#profile .btn {
+.btn {
   padding: 11px 40px;
   background-color: rgb(31, 30, 30, 0.24);
   border-radius: 10px 25px 10px 25px;
@@ -17,7 +17,7 @@
   color: #fefefe;
   
 }
-#profile .btn:hover {
+.btn:hover {
   background: linear-gradient(rgba(0, 0, 0, 0.6), #3a86ff);
 }
 .title-me h2 span {
@@ -25,7 +25,6 @@
 }
 .title-me h1 span {
   color: #3a86ff;
-  
 }
 .title-me h3 span {
   color: #3a86ff;
@@ -62,7 +61,7 @@
   .hero img {
     text-align: center;
     width: 330px;
-    height: 330px;
+    height: 350px;
   }
   .title-me {
     max-width: 100%;
