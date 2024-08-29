@@ -1,4 +1,4 @@
-.about-me {
+#about-me {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,12 +69,12 @@
   transition: all 0.2s;
 } */
 @media only screen and (max-width: 1320px) {
-  .about-me {
+  #about-me {
     padding: 0 50px;
   }
 }
 @media only screen and (max-width: 1200px) {
-  .about-me {
+  #about-me {
     margin-top: 60px;
     padding: 0 40px;
     gap: 30px;
@@ -90,7 +90,7 @@
   }
 }
 @media only screen and (max-width: 900px) {
-  .about-me {
+  #about-me {
     padding: 0 45px;
     display: flex;
     flex-direction: column-reverse;
@@ -109,7 +109,7 @@
   }
 }
 @media only screen and (max-width: 700px) {
-  .about-me {
+  #about-me {
     padding: 0 30px;
     display: flex;
     flex-direction: column-reverse;

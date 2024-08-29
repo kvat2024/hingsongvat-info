@@ -24,12 +24,13 @@
 .contact-me p span{
   font-style: italic;
 }
-.contact-me p i {
-  color: white;
+.contact-me p a img {
+ width: 25px;
+ height: 25px;
   cursor: pointer;
 }
-.contact-me p i:hover  {
- color: #3a86ff;
+.contact-me p a img:hover  {
+ border: 2px solid white;
 }
 .form {
   width: 70%;
