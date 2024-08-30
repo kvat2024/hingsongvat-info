@@ -9,22 +9,6 @@ document.addEventListener(
   { passive: false }
 );
 // end touch no zoom in responsive
-// logo style
-document.addEventListener("DOMContentLoaded", () => {
-  const spans = document.querySelectorAll("#logo span");
-  let index = 0;
-
-  function showNextSpan() {
-    if (index < spans.length) {
-      spans[index].classList.remove("hidden");
-      index++;
-      setTimeout(showNextSpan, 500); // Adjust the speed here
-    }
-  }
-
-  showNextSpan();
-});
-// end style of logo
 
 // touch nav-bar
 hamburger = document.querySelector(".hamburger");
@@ -33,3 +17,15 @@ hamburger.onclick = function () {
   navBar.classList.toggle("active");
 };
 // end touch nav-bar
+
+// scroll Rever on profile
+
+const sr = ScrollReveal ({
+  distance: '65px',
+  duration: 2000,
+  delay: 450,
+  reset:true
+});
+
+sr.reveal('.title-me',{delay:200,origin:'top'});
+sr.reveal('.hero',{delay:500,origin:'left'});
