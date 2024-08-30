@@ -43,6 +43,7 @@
 }
 .hero img {
   width: 450px;
+  filter: drop-shadow(1px 1px 15px  #3a86ff);
 }
 @media only screen and (max-width: 1320px) {
   #profile {

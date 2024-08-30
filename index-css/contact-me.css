@@ -89,7 +89,7 @@
 }
 @media only screen and (max-width: 900px) {
   #contact-me {
-    padding: 0 30px;
+    padding: 0 60px;
     flex-direction: column;
     margin-top: 30px;
     gap: 30px;

@@ -70,5 +70,6 @@
   #my-work {
     display: flex;
     flex-direction: column;
+    padding: 0 60px;
   }
 }
