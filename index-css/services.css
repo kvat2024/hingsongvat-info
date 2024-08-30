@@ -3,7 +3,7 @@
   font-size: 30px;
   margin-bottom: 50px;
   color: whitesmoke;
-  text-shadow: 5px 5px 5px #3a86ff, -6px -6px 12px blue;;
+  text-shadow: 5px 5px 5px #3a86ff, -6px -6px 12px blue;
 }
 .title span {
   color: #3a86ff;
@@ -68,9 +68,14 @@
   #services {
     display: flex;
     flex-direction: column;
-    padding: 0 60px;
+    padding: 0 70px;
   }
   .title {
     font-size: 20px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #services {
+    padding: 0 30px;
   }
 }

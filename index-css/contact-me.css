@@ -89,7 +89,7 @@
 }
 @media only screen and (max-width: 900px) {
   #contact-me {
-    padding: 0 60px;
+    padding: 0 70px;
     flex-direction: column;
     margin-top: 30px;
     gap: 30px;
@@ -112,5 +112,10 @@
     border: 2px solid #3a86ff;
     border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
     padding: 30px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #contact-me {
+    padding: 0 30px;
   }
 }

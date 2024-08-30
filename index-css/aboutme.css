@@ -103,7 +103,7 @@
   .hero-2 img {
     max-width: 100%;
     width: 500px;
-    height: 500px;
+    height: 550px;
   }
   .tab-item {
     max-width: 100%;
@@ -118,8 +118,11 @@
   }
   .hero-2 img {
     max-width: 100%;
-    width: 500px;
+    width: 400px;
     height: 500px;
+  }
+  .content {
+    padding: 0 30px;
   }
 }
 @media only screen and (max-width: 400px) {
