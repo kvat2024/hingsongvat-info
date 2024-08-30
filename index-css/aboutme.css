@@ -125,13 +125,17 @@
     padding: 0 25px;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .tab-item ul li {
     font-size: 20px;
     max-width: 100%;
   }
   .hero-2 img {
     height: 380px;
+    width: 330px;
+  }
+  .content {
+    padding: 0 10px;
   }
 }
 @media only screen and (max-width: 300px) {
